@@ -1,0 +1,845 @@
+Raspuns pentru GET /contents pe ContentService
+
+[
+    {
+        "content_id": 37,
+        "content_name": "Cruciada Rock",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [
+            {
+                "tag_type_id": 1,
+                "tag_type_string": "Rock"
+            }
+        ],
+        "credits": [
+            {
+                "id": {
+                    "contentID": 37,
+                    "artistID": "alexmetalistu655"
+                },
+                "artist": {
+                    "artist_identifier": "alexmetalistu655",
+                    "artist_name": "Alex Metalistu",
+                    "is_active": true
+                },
+                "artist_index": 0,
+                "links": []
+            }
+        ],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/37"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 39,
+        "content_name": "BestRock",
+        "content_date": "2015-03-02",
+        "content_type": "album",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/39"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 40,
+        "content_name": "BestRock",
+        "content_date": "2015-03-02",
+        "content_type": "album",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/40"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 41,
+        "content_name": "BestRock",
+        "content_date": "2015-03-02",
+        "content_type": "album",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/41"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 42,
+        "content_name": "BestRock",
+        "content_date": "2015-03-02",
+        "content_type": "album",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/42"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 46,
+        "content_name": "Wakanda Jazz",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [
+            {
+                "tag_type_id": 2,
+                "tag_type_string": "Jazz"
+            }
+        ],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/46"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 55,
+        "content_name": "Platinum Jazz",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [
+            {
+                "tag_type_id": 11,
+                "tag_type_string": "Rock"
+            }
+        ],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/55"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 65,
+        "content_name": "Singular Jazz",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/65"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 66,
+        "content_name": "Nopus Jazz",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/66"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 67,
+        "content_name": "Yep Jazz",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/67"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 68,
+        "content_name": "Yep Jazz",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/68"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 69,
+        "content_name": "Yep Jazz",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/69"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 70,
+        "content_name": "Yep Jazz",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/70"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 71,
+        "content_name": "Yep Jazz",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/71"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 72,
+        "content_name": "Yep Jazz",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/72"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 73,
+        "content_name": "Yep Jazz",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/73"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 75,
+        "content_name": "Yep Jazz",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/75"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 76,
+        "content_name": "Yep Jazz",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/76"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 77,
+        "content_name": "Cruciada Rock",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/77"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 78,
+        "content_name": "Cruciada Rock",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/78"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 79,
+        "content_name": "Cruciada Rock",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/79"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 80,
+        "content_name": "Cruciada Rock",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/80"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 81,
+        "content_name": "Cruciada Rock",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/81"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 82,
+        "content_name": "Cruciada Rock",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/82"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 83,
+        "content_name": "Cruciada Rock",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/83"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 84,
+        "content_name": "Cruciada Rock",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/84"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 85,
+        "content_name": "Cruciada Rock",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/85"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 86,
+        "content_name": "Cruciada Rock",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/86"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 87,
+        "content_name": "Cruciada Rock",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/87"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 88,
+        "content_name": "Cruciada Rock",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/88"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 89,
+        "content_name": "Cruciada Rock",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/89"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 90,
+        "content_name": "Cruciada Rock",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/90"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 91,
+        "content_name": "Cruciada Rock",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/91"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 92,
+        "content_name": "Cruciada Rock",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/92"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 93,
+        "content_name": "Cruciada Rock",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/93"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 94,
+        "content_name": "Cruciada Rock",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/94"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 95,
+        "content_name": "Cruciada Rock",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/95"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 96,
+        "content_name": "Cruciada Rock",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/96"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 97,
+        "content_name": "Cruciada Rock",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/97"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 99,
+        "content_name": "Night Jazz",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/99"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 103,
+        "content_name": "Night Jazz",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [
+            {
+                "tag_type_id": 12,
+                "tag_type_string": "Jazz"
+            }
+        ],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/103"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 104,
+        "content_name": "Ultra Alternativ",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [
+            {
+                "tag_type_id": 13,
+                "tag_type_string": "Alternativ"
+            }
+        ],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/104"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 105,
+        "content_name": "Ultra Alternativ",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [
+            {
+                "tag_type_id": 14,
+                "tag_type_string": "Alternativ"
+            }
+        ],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/105"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    },
+    {
+        "content_id": 106,
+        "content_name": "Ultra Alternativ",
+        "content_date": "2015-03-02",
+        "content_type": "single",
+        "associatedTags": [
+            {
+                "tag_type_id": 15,
+                "tag_type_string": "Alternativ"
+            }
+        ],
+        "credits": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8080/contents/106"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8080/contents"
+            }
+        ]
+    }
+]

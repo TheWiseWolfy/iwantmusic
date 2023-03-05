@@ -1,0 +1,103 @@
+{
+	"info": {
+		"_postman_id": "d3f2a378-a210-4788-af4e-fbd0ef08abaf",
+		"name": "Serviciu IMD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20127203"
+	},
+	"item": [
+		{
+			"name": "SOAP",
+			"item": [
+				{
+					"name": "Autentificate",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "text/xml",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "SOAPAction",
+								"value": "\"#authenticate\"",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:ns0=\"services.auth.soap\" xmlns:ns1=\"http://schemas.xmlsoap.org/soap/envelope/\">\n<SOAP-ENV:Header/>\n    <ns1:Body>\n        <ns0:authenticate>\n            <ns0:username>unwise</ns0:username>\n            <ns0:password>1234</ns0:password>\n        </ns0:authenticate>\n    </ns1:Body>\n</SOAP-ENV:Envelope>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8070",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8070"
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Validate token",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "text/xml",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "SOAPAction",
+								"value": "\"#validate_t2e\"",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:ns0=\"services.auth.soap\" xmlns:ns1=\"http://schemas.xmlsoap.org/soap/envelope/\">\n<SOAP-ENV:Header/>\n    <ns1:Body>\n        <ns0:validate_token>\n            <ns0:username>unwise</ns0:username>\n            <ns0:token>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwNzAvP3dzZGwiLCJzdWIiOjEsImV4cCI6MTY3MzQ1OTk2MywianRpIjoiZTYwNTc1YWItYWJlYi00NmZkLWE3YTEtOGMwNTgyNjg3MzQyIiwicm9sZSI6MX0.JsDVGvkkMsl8u-XsjjgNyYMt0pN1vQNnqpglQv1oUuk</ns0:token>\n        </ns0:validate_token>\n    </ns1:Body>\n</SOAP-ENV:Envelope>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8070",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8070"
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

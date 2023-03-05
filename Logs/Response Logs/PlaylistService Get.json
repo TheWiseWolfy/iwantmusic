@@ -1,0 +1,112 @@
+Rezultatul unui request GET pentru /playlists pe serviciul PlaylistService
+
+[
+    {
+        "id": "639a3daf34fb3e1281e8a8b6",
+        "playlist_name": "Profesional Trower Boy 2",
+        "owner_id": "1",
+        "creationDate": "2022-12-14",
+        "songs": [
+            {
+                "songId": 39,
+                "songName": "BestRock",
+                "songLink": "http://localhost:8080/contents/39"
+            }
+        ],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8090/playlists/639a3daf34fb3e1281e8a8b6"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8090/playlists"
+            }
+        ]
+    },
+    {
+        "id": "639a4030ff306f34a9911513",
+        "playlist_name": "Night Sleep",
+        "owner_id": "1",
+        "creationDate": "2022-12-14",
+        "songs": [
+            {
+                "songId": 41,
+                "songName": "BestRock",
+                "songLink": "http://localhost:8080/contents/41"
+            },
+            {
+                "songId": 55,
+                "songName": "Platinum Jazz",
+                "songLink": "http://localhost:8080/contents/55"
+            }
+        ],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8090/playlists/639a4030ff306f34a9911513"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8090/playlists"
+            }
+        ]
+    },
+    {
+        "id": "63cd10f32cc9ea02ee7257eb",
+        "playlist_name": "Cooking music",
+        "owner_id": "1",
+        "creationDate": "2023-01-22",
+        "songs": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8090/playlists/63cd10f32cc9ea02ee7257eb"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8090/playlists"
+            }
+        ]
+    },
+    {
+        "id": "63cd10f52cc9ea02ee7257e2",
+        "playlist_name": "The greats of classical music",
+        "owner_id": "3",
+        "creationDate": "2023-01-22",
+        "songs": [],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8090/playlists/63cd10f52cc9ea02ee7257e2"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8090/playlists"
+            }
+        ]
+    },
+    {
+        "id": "63cd10f52cc9ea02ee7227e2",
+        "playlist_name": "Never again playlist",
+        "owner_id": "4",
+        "creationDate": "2023-01-22",
+        "songs": [
+            {
+                "songId": 41,
+                "songName": "BestRock",
+                "songLink": "http://localhost:8080/contents/41"
+            }
+        ],
+        "links": [
+            {
+                "rel": "self",
+                "href": "http://localhost:8090/playlists/63cd10f52cc9ea02ee7227e2"
+            },
+            {
+                "rel": "parent",
+                "href": "http://localhost:8090/playlists"
+            }
+        ]
+    }
+]

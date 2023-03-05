@@ -1,0 +1,147 @@
+{
+	"info": {
+		"_postman_id": "efe68fd4-ee4a-44b3-ba44-16ea3b027cbe",
+		"name": "Serviciu Rest Gateway",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20127203"
+	},
+	"item": [
+		{
+			"name": "Playlists",
+			"item": [
+				{
+					"name": "Read playlists",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8095/playlist/639a3daf34fb3e1281e8a8b6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8095",
+							"path": [
+								"playlist",
+								"639a3daf34fb3e1281e8a8b6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read playlist by ID Copy",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8095/playlist/639a3daf34fb3e1281e8a8b6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8095",
+							"path": [
+								"playlist",
+								"639a3daf34fb3e1281e8a8b6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edit playlist",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwNzAvP3dzZGwiLCJzdWIiOjEsImV4cCI6MTY3NDQwMjI0OSwianRpIjoiZGI0MTA4MDMtYjQyNS00OTFhLTkzMWQtMDkyOTI4YmJjNjhjIiwicm9sZSI6MX0.xlzZa8gYkN37kvlNpmQxWh8unv5g2p7GkB5zG9kg6iA",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"playlist_name\": \"Profesional Trower Boy 2\",\n    \"owner_id\": \"1\",\n    \"creationDate\": \"2022-12-14\",\n    \"songs\": [\n\n        {\n            \"songId\": 39\n        }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8095/playlist/639a3daf34fb3e1281e8a8b6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8095",
+							"path": [
+								"playlist",
+								"639a3daf34fb3e1281e8a8b6"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "IMD",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"username\": \"unwise\",\n        \"password\": \"1234\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8095/authenticate",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8095",
+							"path": [
+								"authenticate"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
